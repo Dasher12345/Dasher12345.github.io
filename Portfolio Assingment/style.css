@@ -1,0 +1,69 @@
+
+/* BODY RESET */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+/* NAVBAR LINK ACTIVE STATE */
+.navbar-nav .nav-link.active {
+  font-weight: 600;
+  color: #0d6efd !important; /* Bootstrap primary color */
+}
+
+/* HERO IMAGE */
+img.rounded-circle {
+  max-width: 250px;
+  height: auto;
+}
+
+/* CARD HOVER EFFECT (Projects page) */
+.card:hover {
+  transform: translateY(-4px);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* FOOTER STYLING */
+footer {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+/* FORM INPUT FOCUS */
+.form-control:focus {
+  box-shadow: none;
+  border-color: #0d6efd;
+}
+
+/* ADJUST RATIO EMBED TO HAVE BORDER */
+.ratio {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+/* ADD ANY ADDITIONAL CUSTOM STYLES BELOW */
+
+
+.bg-color {
+  background-color: #001b36 !important;
+}
+
+.bg-white {
+  background-color: #001b36 !important;
+  background: linear-gradient(to bottom, #001b36, #0057ad);
+  color: white !important;
+}
+
+.bg-light {
+  background-color: #001b36 !important;
+  background: linear-gradient(to bottom, #0057ad, #001b36);
+  color: white !important;
+} 
+
+.projects-section {
+  background-color: #001b36 !important;
+  background: linear-gradient(to bottom, #001b36, #0057ad);
+  color: white !important;
+}
